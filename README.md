@@ -3,7 +3,7 @@
 ##Setting up
 
 1. Clone the repo
-2. Run python\_requirements.py
+2. Run python\_requirements.sh
 3. Run npm\_requirements\_install.sh
 4. Compile wabt tool : https://github.com/WebAssembly/wabt (Make sure it generates binary file `wabt/bin/wasm2wat`)
 5. Compile Chromium browser enabling debug flags so that you can use `dump-wasm-module` JS flag to dump wasm module or use this version : https://download.vusec.net/dataset/chrome-build.tar 
